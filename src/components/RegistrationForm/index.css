@@ -1,0 +1,75 @@
+/* Write your CSS code here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  color: orangered;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.name {
+  font-size: 16px;
+  color: #475569;
+  font-weight: bold;
+}
+
+.input {
+  height: 30px;
+  margin-top: 5px;
+  margin-right: 7px;
+  margin-left: 5px;
+}
+
+.button-container {
+  text-align: center;
+}
+.button {
+  color: white;
+  background-color: orangered;
+  border: 0px;
+  border-radius: 6px;
+  height: 40px;
+  width: 100px;
+}
+
+.button2 {
+  width: 160px;
+  color: white;
+  background-color: orangered;
+  border: 0px;
+  border-radius: 6px;
+  height: 40px;
+}
+
+.success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-input-field{
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  border: 1px solid #cbd2d9;
+  color: #9aa5b1;
+  border-radius: 4px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.error-field{
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+}
